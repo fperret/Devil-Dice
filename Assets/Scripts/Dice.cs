@@ -4,6 +4,8 @@ using UnityEngine;
 using System.Linq;
 using System;
 
+// Dice need a rigidbody with gravity + kinematic enabled and freeze position on Y
+
 public class Dice : MonoBehaviour
 {
     public enum Face {
